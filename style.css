@@ -3,8 +3,8 @@
   margin: auto;
 }
 .header {
-    display: flex;
-    padding-top: 88px;
+  display: flex;
+  padding-top: 88px;
 }
 .list-nav {
   display: flex;
@@ -26,3 +26,6 @@
   height: 500px; 
   background: url('img/mainImg.svg') no-repeat center;
 } */
+footer {
+  background-color: #314584;
+}
