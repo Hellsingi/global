@@ -1,0 +1,28 @@
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.header {
+    display: flex;
+    padding-top: 88px;
+}
+.list-nav {
+  display: flex;
+  list-style: none;
+}
+.list-nav li a {
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 45px;
+}
+.main {
+  display: flex;
+}
+.main-text {
+  width: 50%;
+}
+/* .svg-background {
+  width: 100%;
+  height: 500px; 
+  background: url('img/mainImg.svg') no-repeat center;
+} */
