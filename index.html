@@ -15,21 +15,38 @@
     <header>
         <div class="container header">
             <div class="logo">
-                <img src="img/Logo.png" alt="logo">
+                <img src="img/Logo.png" alt="logo" class="img-logo">
             </div>
             <nav>
-                <ul class="list-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="#">Home</a></li>
+                        <li><a class="menu__item" href="#">About us.</a></li>
+                        <li><a class="menu__item" href="#">Portfolio</a></li>
+                        <li><a class="menu__item" href="#">Blog.</a></li>
+                        <li><a class="menu__item" href="#">Contact us.</a></li>
+                    </ul>
+                </div>
+                <div class="regular-menu">
+                    <ul class="list-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+
+                </div>
             </nav>
         </div>
     </header>
     <main>
-        <section class="main">
+        <section class="main-section">
             <div class="container main">
                 <div class="main_text">
                     <h1 class="main_tagline">
@@ -64,7 +81,7 @@
                 <p class="portfolio_more">See More of These.</p>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="contact_name">
                     CONTACT US
