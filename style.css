@@ -1,6 +1,8 @@
 body {
   font-family: "Work Sans", sans-serif;
   font-size: 18px;
+  font-weight: 600;
+  margin: 0;
 }
 .container {
   max-width: 1170px;
@@ -29,7 +31,6 @@ body {
   font-size: 73px;
   letter-spacing: 1px;
   color: #314584;
-  font-weight: 600;
 }
 .main_description {
   max-width: 531px;
@@ -48,14 +49,12 @@ body {
   filter: drop-shadow(0px 5px 5px rgba(255, 57, 70, 0.15));
   background-color: #ff3946;
   color: #ffffff;
-  font-weight: 600;
   outline: none;
 }
 .buttons_get {
   width: 200px;
   height: 55px;
   border-radius: 25px;
-  font-weight: 600;
   color: #314584;
   background-color: #fff;
   border: none;
@@ -63,7 +62,6 @@ body {
 .portfolio_title {
   font-size: 48px;
   color: #314584;
-  font-weight: 600;
   margin-left: 15px;
 }
 .portfolio_block {
@@ -78,24 +76,20 @@ body {
 }
 .portfolio_more {
   color: #ff3946;
-  font-weight: 600;
   text-align: center;
 }
-.contact{
+.contact {
   padding-top: 270px;
+  padding-bottom: 60px;
 }
 .contact_name {
   color: #ff3946;
-  font-family: "Work Sans";
-  font-weight: 600;
   text-transform: uppercase;
   padding-bottom: 30px;
 }
 .contact_title {
   font-size: 48px;
   color: #314584;
-  font-family: "Work Sans";
-  font-weight: 600;
   padding-bottom: 58px;
 }
 form {
@@ -103,7 +97,6 @@ form {
 }
 ::placeholder {
   color: #314584;
-  font-weight: 600;
 }
 input[type="email"] {
   width: 46%;
@@ -146,11 +139,50 @@ textarea {
   background-color: #ff3946;
   margin-top: 65px;
 }
-
 .form_send:hover {
   background-color: #45a049;
 }
 
 footer {
   background-color: #314584;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer_name {
+  color: #ffffff;
+}
+.footer_tagline {
+  font-size: 48px;
+  color: #ff3946;
+}
+.footer_license {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.footer_social i {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.footer_menu {
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: center;
+  padding-top: 47px;
+  padding-bottom: 58px;
+  margin: 0;
+}
+
+footer .menu_item {
+  margin-left: 40px;
+}
+
+footer .menu_link {
+  text-decoration: none;
+  color: #ffffff;
 }
