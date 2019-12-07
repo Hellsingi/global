@@ -1,5 +1,6 @@
 body {
   font-family: "Work Sans", sans-serif;
+  font-size: 18px;
 }
 .container {
   max-width: 1170px;
@@ -15,7 +16,6 @@ body {
 }
 .list-nav li a {
   text-decoration: none;
-  font-size: 18px;
   padding-left: 45px;
 }
 .main {
@@ -33,7 +33,6 @@ body {
 }
 .main_description {
   max-width: 531px;
-  font-size: 18px;
   color: #6e757a;
   font-weight: 400;
   padding-bottom: 42px;
@@ -49,7 +48,6 @@ body {
   filter: drop-shadow(0px 5px 5px rgba(255, 57, 70, 0.15));
   background-color: #ff3946;
   color: #ffffff;
-  font-size: 18px;
   font-weight: 600;
   outline: none;
 }
@@ -57,7 +55,6 @@ body {
   width: 200px;
   height: 55px;
   border-radius: 25px;
-  font-size: 18px;
   font-weight: 600;
   color: #314584;
   background-color: #fff;
@@ -80,11 +77,80 @@ body {
   margin: 10px auto;
 }
 .portfolio_more {
-  font-size: 18px;
   color: #ff3946;
   font-weight: 600;
   text-align: center;
 }
+.contact{
+  padding-top: 270px;
+}
+.contact_name {
+  color: #ff3946;
+  font-family: "Work Sans";
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.contact_title {
+  font-size: 48px;
+  color: #314584;
+  font-family: "Work Sans";
+  font-weight: 600;
+  padding-bottom: 58px;
+}
+form {
+  text-align: center;
+}
+::placeholder {
+  color: #314584;
+  font-weight: 600;
+}
+input[type="email"] {
+  width: 46%;
+  padding: 12px 20px;
+  margin: 0 35px 35px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f4fafe;
+  border: none;
+}
+input[type="text"] {
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f4fafe;
+  border: none;
+}
+textarea {
+  padding: 12px 20px;
+  width: 100%;
+  height: 120px;
+  box-sizing: border-box;
+  background-color: #f4fafe;
+  border: none;
+  resize: none;
+}
+.form_send {
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 55px;
+  border-radius: 25px;
+  filter: drop-shadow(0px 5px 5px rgba(255, 57, 70, 0.15));
+  background-color: #ff3946;
+  margin-top: 65px;
+}
+
+.form_send:hover {
+  background-color: #45a049;
+}
+
 footer {
   background-color: #314584;
 }
